@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAC204E92BD9FF7500CD096E /* SingingPhilipsHueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC204E82BD9FF7500CD096E /* SingingPhilipsHueApp.swift */; };
+		DAC204EB2BD9FF7500CD096E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC204EA2BD9FF7500CD096E /* ContentView.swift */; };
+		DAC204ED2BD9FF7800CD096E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC204EC2BD9FF7800CD096E /* Assets.xcassets */; };
+		DAC204F02BD9FF7800CD096E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC204EF2BD9FF7800CD096E /* Preview Assets.xcassets */; };
+		DAC204FA2BD9FF7800CD096E /* SingingPhilipsHueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC204F92BD9FF7800CD096E /* SingingPhilipsHueTests.swift */; };
+		DAC205042BD9FF7800CD096E /* SingingPhilipsHueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC205032BD9FF7800CD096E /* SingingPhilipsHueUITests.swift */; };
+		DAC205062BD9FF7800CD096E /* SingingPhilipsHueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC205052BD9FF7800CD096E /* SingingPhilipsHueUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAC204F62BD9FF7800CD096E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC204DD2BD9FF7500CD096E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC204E42BD9FF7500CD096E;
+			remoteInfo = SingingPhilipsHue;
+		};
+		DAC205002BD9FF7800CD096E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC204DD2BD9FF7500CD096E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC204E42BD9FF7500CD096E;
+			remoteInfo = SingingPhilipsHue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAC204E52BD9FF7500CD096E /* SingingPhilipsHue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingingPhilipsHue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC204E82BD9FF7500CD096E /* SingingPhilipsHueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingingPhilipsHueApp.swift; sourceTree = "<group>"; };
+		DAC204EA2BD9FF7500CD096E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAC204EC2BD9FF7800CD096E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAC204EF2BD9FF7800CD096E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAC204F52BD9FF7800CD096E /* SingingPhilipsHueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingingPhilipsHueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC204F92BD9FF7800CD096E /* SingingPhilipsHueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingingPhilipsHueTests.swift; sourceTree = "<group>"; };
+		DAC204FF2BD9FF7800CD096E /* SingingPhilipsHueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingingPhilipsHueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC205032BD9FF7800CD096E /* SingingPhilipsHueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingingPhilipsHueUITests.swift; sourceTree = "<group>"; };
+		DAC205052BD9FF7800CD096E /* SingingPhilipsHueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingingPhilipsHueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC204E22BD9FF7500CD096E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC204F22BD9FF7800CD096E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC204FC2BD9FF7800CD096E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC204DC2BD9FF7500CD096E = {
+			isa = PBXGroup;
+			children = (
+				DAC204E72BD9FF7500CD096E /* SingingPhilipsHue */,
+				DAC204F82BD9FF7800CD096E /* SingingPhilipsHueTests */,
+				DAC205022BD9FF7800CD096E /* SingingPhilipsHueUITests */,
+				DAC204E62BD9FF7500CD096E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC204E62BD9FF7500CD096E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC204E52BD9FF7500CD096E /* SingingPhilipsHue.app */,
+				DAC204F52BD9FF7800CD096E /* SingingPhilipsHueTests.xctest */,
+				DAC204FF2BD9FF7800CD096E /* SingingPhilipsHueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC204E72BD9FF7500CD096E /* SingingPhilipsHue */ = {
+			isa = PBXGroup;
+			children = (
+				DAC204E82BD9FF7500CD096E /* SingingPhilipsHueApp.swift */,
+				DAC204EA2BD9FF7500CD096E /* ContentView.swift */,
+				DAC204EC2BD9FF7800CD096E /* Assets.xcassets */,
+				DAC204EE2BD9FF7800CD096E /* Preview Content */,
+			);
+			path = SingingPhilipsHue;
+			sourceTree = "<group>";
+		};
+		DAC204EE2BD9FF7800CD096E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAC204EF2BD9FF7800CD096E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAC204F82BD9FF7800CD096E /* SingingPhilipsHueTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC204F92BD9FF7800CD096E /* SingingPhilipsHueTests.swift */,
+			);
+			path = SingingPhilipsHueTests;
+			sourceTree = "<group>";
+		};
+		DAC205022BD9FF7800CD096E /* SingingPhilipsHueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC205032BD9FF7800CD096E /* SingingPhilipsHueUITests.swift */,
+				DAC205052BD9FF7800CD096E /* SingingPhilipsHueUITestsLaunchTests.swift */,
+			);
+			path = SingingPhilipsHueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC204E42BD9FF7500CD096E /* SingingPhilipsHue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC205092BD9FF7800CD096E /* Build configuration list for PBXNativeTarget "SingingPhilipsHue" */;
+			buildPhases = (
+				DAC204E12BD9FF7500CD096E /* Sources */,
+				DAC204E22BD9FF7500CD096E /* Frameworks */,
+				DAC204E32BD9FF7500CD096E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingingPhilipsHue;
+			productName = SingingPhilipsHue;
+			productReference = DAC204E52BD9FF7500CD096E /* SingingPhilipsHue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAC204F42BD9FF7800CD096E /* SingingPhilipsHueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC2050C2BD9FF7800CD096E /* Build configuration list for PBXNativeTarget "SingingPhilipsHueTests" */;
+			buildPhases = (
+				DAC204F12BD9FF7800CD096E /* Sources */,
+				DAC204F22BD9FF7800CD096E /* Frameworks */,
+				DAC204F32BD9FF7800CD096E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC204F72BD9FF7800CD096E /* PBXTargetDependency */,
+			);
+			name = SingingPhilipsHueTests;
+			productName = SingingPhilipsHueTests;
+			productReference = DAC204F52BD9FF7800CD096E /* SingingPhilipsHueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAC204FE2BD9FF7800CD096E /* SingingPhilipsHueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC2050F2BD9FF7800CD096E /* Build configuration list for PBXNativeTarget "SingingPhilipsHueUITests" */;
+			buildPhases = (
+				DAC204FB2BD9FF7800CD096E /* Sources */,
+				DAC204FC2BD9FF7800CD096E /* Frameworks */,
+				DAC204FD2BD9FF7800CD096E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC205012BD9FF7800CD096E /* PBXTargetDependency */,
+			);
+			name = SingingPhilipsHueUITests;
+			productName = SingingPhilipsHueUITests;
+			productReference = DAC204FF2BD9FF7800CD096E /* SingingPhilipsHueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC204DD2BD9FF7500CD096E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DAC204E42BD9FF7500CD096E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DAC204F42BD9FF7800CD096E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DAC204E42BD9FF7500CD096E;
+					};
+					DAC204FE2BD9FF7800CD096E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DAC204E42BD9FF7500CD096E;
+					};
+				};
+			};
+			buildConfigurationList = DAC204E02BD9FF7500CD096E /* Build configuration list for PBXProject "SingingPhilipsHue" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAC204DC2BD9FF7500CD096E;
+			productRefGroup = DAC204E62BD9FF7500CD096E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC204E42BD9FF7500CD096E /* SingingPhilipsHue */,
+				DAC204F42BD9FF7800CD096E /* SingingPhilipsHueTests */,
+				DAC204FE2BD9FF7800CD096E /* SingingPhilipsHueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC204E32BD9FF7500CD096E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC204F02BD9FF7800CD096E /* Preview Assets.xcassets in Resources */,
+				DAC204ED2BD9FF7800CD096E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC204F32BD9FF7800CD096E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC204FD2BD9FF7800CD096E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC204E12BD9FF7500CD096E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC204EB2BD9FF7500CD096E /* ContentView.swift in Sources */,
+				DAC204E92BD9FF7500CD096E /* SingingPhilipsHueApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC204F12BD9FF7800CD096E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC204FA2BD9FF7800CD096E /* SingingPhilipsHueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC204FB2BD9FF7800CD096E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC205042BD9FF7800CD096E /* SingingPhilipsHueUITests.swift in Sources */,
+				DAC205062BD9FF7800CD096E /* SingingPhilipsHueUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAC204F72BD9FF7800CD096E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC204E42BD9FF7500CD096E /* SingingPhilipsHue */;
+			targetProxy = DAC204F62BD9FF7800CD096E /* PBXContainerItemProxy */;
+		};
+		DAC205012BD9FF7800CD096E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC204E42BD9FF7500CD096E /* SingingPhilipsHue */;
+			targetProxy = DAC205002BD9FF7800CD096E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAC205072BD9FF7800CD096E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAC205082BD9FF7800CD096E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC2050A2BD9FF7800CD096E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SingingPhilipsHue/Preview Content\"";
+				DEVELOPMENT_TEAM = 467CNRQYUD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whateverett.SingingPhilipsHue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAC2050B2BD9FF7800CD096E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SingingPhilipsHue/Preview Content\"";
+				DEVELOPMENT_TEAM = 467CNRQYUD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whateverett.SingingPhilipsHue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAC2050D2BD9FF7800CD096E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 467CNRQYUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whateverett.SingingPhilipsHueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingingPhilipsHue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SingingPhilipsHue";
+			};
+			name = Debug;
+		};
+		DAC2050E2BD9FF7800CD096E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 467CNRQYUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whateverett.SingingPhilipsHueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingingPhilipsHue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SingingPhilipsHue";
+			};
+			name = Release;
+		};
+		DAC205102BD9FF7800CD096E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 467CNRQYUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whateverett.SingingPhilipsHueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SingingPhilipsHue;
+			};
+			name = Debug;
+		};
+		DAC205112BD9FF7800CD096E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 467CNRQYUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = whateverett.SingingPhilipsHueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SingingPhilipsHue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC204E02BD9FF7500CD096E /* Build configuration list for PBXProject "SingingPhilipsHue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC205072BD9FF7800CD096E /* Debug */,
+				DAC205082BD9FF7800CD096E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC205092BD9FF7800CD096E /* Build configuration list for PBXNativeTarget "SingingPhilipsHue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC2050A2BD9FF7800CD096E /* Debug */,
+				DAC2050B2BD9FF7800CD096E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC2050C2BD9FF7800CD096E /* Build configuration list for PBXNativeTarget "SingingPhilipsHueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC2050D2BD9FF7800CD096E /* Debug */,
+				DAC2050E2BD9FF7800CD096E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC2050F2BD9FF7800CD096E /* Build configuration list for PBXNativeTarget "SingingPhilipsHueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC205102BD9FF7800CD096E /* Debug */,
+				DAC205112BD9FF7800CD096E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAC204DD2BD9FF7500CD096E /* Project object */;
+}
